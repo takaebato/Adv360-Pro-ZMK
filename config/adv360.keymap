@@ -59,7 +59,7 @@
             bindings = <
 &kp ESCAPE  &kp N1     &kp N2    &kp N3        &kp N4         &kp N5  &tog 1                                                                      &mo 3              &kp N6  &kp N7         &kp N8     &kp N9    &kp N0    &kp MINUS
 &kp TAB     &kp Q      &kp W     &kp E         &kp R          &kp T   &none                                                                       &none              &kp Y   &kp U          &kp I      &kp O     &kp P     &kp AT
-&kp LCTRL   &kp A      &kp S     &kp D         &kp F          &kp G   &none        &kp SPACE         &kp LALT      &kp ENTER     &kp RCTRL        &none              &kp H   &kp J          &kp K      &kp L     &kp SEMI  &kp ENTER
+&kp LCTRL   &kp A      &kp S     &kp D         &kp F          &kp G   &kp TAB      &kp SPACE         &kp LALT      &kp ENTER     &kp RCTRL        &none              &kp H   &kp J          &kp K      &kp L     &kp SEMI  &kp ENTER
 &kp LSHFT   &kp Z      &kp X     &kp C         &kp V          &kp B                                  &kp HOME      &kp UP_ARROW                                      &kp N   &kp M          &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
 &mo 2       &kp GRAVE  &kp CAPS  &kp LA(LEFT)  &kp LA(RIGHT)          &lt 4 SPACE  &kp LEFT_COMMAND  &kp END       &kp DOWN      &kp RIGHT_SHIFT  &kp RIGHT_COMMAND          &kp BACKSPACE  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
             >;
@@ -97,11 +97,11 @@
 
         layer_custom1 {
             bindings = <
-&trans   &trans        &trans     &trans      &trans     &trans          &trans                                            &trans  &trans         &trans            &trans            &trans             &trans         &trans
-&cmdtab  &trans        &kp LG(W)  &kp LG(E)   &kp LG(R)  &kp LG(T)       &kp INT_KANA                                      &trans  &kp INT1       &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans
-&trans   &kp NUMBER_0  &kp CARET  &kp DOLLAR  &kp ESC    &kp SPACE       &trans        &trans  &trans      &trans  &trans  &trans  &kp LEFT       &kp DOWN          &kp UP            &kp RIGHT          &kp EQUAL      &trans
-&trans   &kp LG(Z)     &kp LG(X)  &kp LG(C)   &kp LG(V)  &kp UNDERSCORE                        &trans      &trans                  &kp LC(SPACE)  &kp LANG1         &kp UNDERSCORE    &kp BACKSLASH      &kp BACKSLASH  &trans
-&trans   &trans        &trans     &trans      &trans                     &trans        &trans  &trans      &trans  &trans  &trans                 &kp TILDE         &kp MINUS         &trans             &trans         &trans
+&trans  &trans        &trans     &trans      &trans     &trans          &trans                                            &trans  &trans         &trans            &trans            &trans             &trans         &trans
+&none   &trans        &kp LG(W)  &kp LG(E)   &kp LG(R)  &kp LG(T)       &kp INT_KANA                                      &trans  &kp INT1       &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans
+&trans  &kp NUMBER_0  &kp CARET  &kp DOLLAR  &kp ESC    &kp SPACE       &trans        &trans  &trans      &trans  &trans  &trans  &kp LEFT       &kp DOWN          &kp UP            &kp RIGHT          &kp EQUAL      &trans
+&trans  &kp LG(Z)     &kp LG(X)  &kp LG(C)   &kp LG(V)  &kp UNDERSCORE                        &trans      &trans                  &kp LC(SPACE)  &kp LANG1         &kp UNDERSCORE    &kp BACKSLASH      &kp BACKSLASH  &trans
+&trans  &trans        &trans     &trans      &trans                     &trans        &trans  &trans      &trans  &trans  &trans                 &kp TILDE         &kp MINUS         &trans             &trans         &trans
             >;
         };
     };
