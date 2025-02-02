@@ -33,6 +33,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        ctrllenter {
+            bindings = <&kp ENTER>;
+            key-positions = <28 43>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
