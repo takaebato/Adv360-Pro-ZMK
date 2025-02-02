@@ -43,6 +43,7 @@
             bindings = <&kp ENTER>;
             key-positions = <28 43>;
             timeout-ms = <10000>;
+            slow-release;
         };
     };
 
