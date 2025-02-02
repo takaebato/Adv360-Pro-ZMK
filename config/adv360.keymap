@@ -80,11 +80,11 @@
 
         layer_Layer__4 {
             bindings = <
- &trans        &trans     &trans      &trans   &trans          &trans                  &trans                                                  &trans           &trans             &trans            &trans             &trans  &trans  &trans
- &trans        &trans     &trans       &none   &trans  &kp LANGUAGE_4            &kp INT_KANA                                                  &trans         &kp INT1   &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
- &trans  &kp NUMBER_0  &kp CARET  &kp DOLLAR  &kp ESC       &kp SPACE                  &trans  &trans  &trans                  &trans  &trans  &trans         &kp LEFT           &kp DOWN            &kp UP          &kp RIGHT  &trans  &trans
- &trans        &trans     &trans      &trans   &trans  &kp UNDERSCORE                                  &trans                  &trans                  &macro_toggleja  &kp LANG_HIRAGANA    &kp UNDERSCORE          &kp MINUS  &trans  &trans
- &trans        &trans     &trans      &trans   &trans                                  &trans  &trans  &trans                  &trans  &trans  &trans                              &trans            &trans             &trans  &trans  &trans
+ &trans        &trans     &trans       &trans   &trans          &trans                  &trans                                                  &trans           &trans            &trans            &trans             &trans  &trans  &trans
+ &trans        &trans     &trans  &macro_cmde   &trans  &kp LANGUAGE_4            &kp INT_KANA                                                  &trans         &kp INT1  &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
+ &trans  &kp NUMBER_0  &kp CARET   &kp DOLLAR  &kp ESC       &kp SPACE                  &trans  &trans  &trans                  &trans  &trans  &trans         &kp LEFT          &kp DOWN            &kp UP          &kp RIGHT  &trans  &trans
+ &trans        &trans     &trans       &trans   &trans  &kp UNDERSCORE                                  &trans                  &trans                  &macro_toggleja         &kp SPACE    &kp UNDERSCORE          &kp MINUS  &trans  &trans
+ &trans        &trans     &trans       &trans   &trans                                  &trans  &trans  &trans                  &trans  &trans  &trans                             &trans            &trans             &trans  &trans  &trans
             >;
         };
 
