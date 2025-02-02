@@ -35,11 +35,11 @@
         "&none",        "&none",        "&none",        "&none",   "&macro_ver",        "&none",                                     "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none",  "&none",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
     ], [
-       "&trans", "&trans", "&trans",     "&trans",  "&trans", "&trans",           "&trans",                                                             "&trans",                   "&trans",            "&trans",         "&trans",    "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans",     "&trans",  "&trans",  "&none",           "&trans",                                                             "&trans",                 "&kp INT1", "&kp LANG_HIRAGANA",      "&kp LANG7",    "&trans", "&trans", "&trans",
-       "&trans", "&trans",  "&none", "&kp DOLLAR", "&kp ESC", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                 "&kp LEFT",          "&kp DOWN",         "&kp UP", "&kp RIGHT", "&trans", "&trans",
-       "&trans", "&trans", "&trans",     "&trans",  "&trans", "&trans",                               "&trans",                     "&trans",                     "&kp INT_KATAKANAHIRAGANA", "&kp LANG_HIRAGANA", "&kp UNDERSCORE",    "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans",     "&trans",  "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                                        "&trans",         "&trans",    "&trans", "&trans", "&trans"
+       "&trans", "&trans", "&trans",     "&trans",  "&trans",         "&trans",                 "&trans",                                                             "&trans",                   "&trans",            "&trans",         "&trans",    "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans",     "&trans",  "&trans", "&kp LANGUAGE_4",           "&kp INT_KANA",                                                             "&trans",                 "&kp INT1", "&kp LANG_HIRAGANA",      "&kp LANG7",    "&trans", "&trans", "&trans",
+       "&trans", "&trans",  "&none", "&kp DOLLAR", "&kp ESC",         "&trans",                 "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                 "&kp LEFT",          "&kp DOWN",         "&kp UP", "&kp RIGHT", "&trans", "&trans",
+       "&trans", "&trans", "&trans",     "&trans",  "&trans", "&kp UNDERSCORE",                                     "&trans",                     "&trans",                     "&kp INT_KATAKANAHIRAGANA", "&kp LANG_HIRAGANA", "&kp UNDERSCORE",    "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans",     "&trans",  "&trans",                                   "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                                        "&trans",         "&trans",    "&trans", "&trans", "&trans"
     ]
   ]
 }
