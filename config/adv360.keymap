@@ -98,7 +98,7 @@
         layer_custom1 {
             bindings = <
 &trans  &trans        &trans     &trans      &trans     &trans          &trans                                            &trans             &trans     &trans            &trans            &trans             &trans     &trans
-&none   &trans        &kp LG(W)  &kp LG(E)   &kp LG(R)  &kp LG(T)       &kp INT_KANA                                      &trans             &kp INT1   &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans
+&none   &kp LG(Q)     &kp LG(W)  &kp LG(E)   &kp LG(R)  &kp LG(T)       &kp INT_KANA                                      &trans             &kp INT1   &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans
 &trans  &kp NUMBER_0  &kp CARET  &kp DOLLAR  &kp ESC    &kp SPACE       &trans        &trans  &trans      &trans  &trans  &kp LANG_KATAKANA  &kp LEFT   &kp DOWN          &kp UP            &kp RIGHT          &kp EQUAL  &trans
 &trans  &kp LG(Z)     &kp LG(X)  &kp LG(C)   &kp LG(V)  &kp UNDERSCORE                        &trans      &trans                             &kp LANG2  &kp LANG1         &kp UNDERSCORE    &kp BACKSLASH      &kp GRAVE  &trans
 &trans  &trans        &trans     &trans      &trans                     &trans        &trans  &trans      &trans  &trans  &trans                        &kp TILDE         &kp MINUS         &trans             &trans     &trans
