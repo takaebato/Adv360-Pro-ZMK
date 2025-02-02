@@ -81,7 +81,7 @@
         layer_Layer__4 {
             bindings = <
  &trans  &trans  &trans      &trans   &trans  &trans            &trans                                                  &trans                    &trans             &trans          &trans     &trans  &trans  &trans
- &trans  &trans  &trans      &trans   &trans  &trans            &trans                                                  &trans                  &kp INT1  &kp LANG_HIRAGANA          &trans     &trans  &trans  &trans
+ &trans  &trans  &trans      &trans   &trans   &none            &trans                                                  &trans                  &kp INT1  &kp LANG_HIRAGANA       &kp LANG7     &trans  &trans  &trans
  &trans  &trans   &none  &kp DOLLAR  &kp ESC  &trans            &trans  &trans  &trans                  &trans  &trans  &trans                  &kp LEFT           &kp DOWN          &kp UP  &kp RIGHT  &trans  &trans
  &trans  &trans  &trans      &trans   &trans  &trans                            &trans                  &trans                  &kp INT_KATAKANAHIRAGANA  &kp LANG_HIRAGANA  &kp UNDERSCORE     &trans  &trans  &trans
  &trans  &trans  &trans      &trans   &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                                       &trans          &trans     &trans  &trans  &trans
