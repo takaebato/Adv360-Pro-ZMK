@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                 &tog 1                                                                     &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T                  &none                                                                     &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
- &kp LCTRL      &kp A     &kp S     &kp D      &kp F   &kp G                  &none         &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL   &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                           &kp HOME                  &kp PG_UP                      &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &lt 4 SPACE  &kp LEFT_COMMAND   &kp END                  &kp PG_DN  &kp ENTER     &mt          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+ &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5            &tog 1                                                                                      &mo 3  &kp N6         &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T             &none                                                                                      &none   &kp Y          &kp U      &kp I     &kp O     &kp P   &kp BSLH
+ &kp LCTRL      &kp A     &kp S     &kp D      &kp F   &kp G             &none         &kp SPACE  &kp LALT                   &kp LGUI        &kp RCTRL              &none   &kp H          &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                      &kp HOME                  &kp PG_UP                                       &kp N          &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                     &mo 4  &kp LEFT_COMMAND   &kp END                  &kp PG_DN  &kp RIGHT_SHIFT  &kp RIGHT_COMMAND          &kp BACKSPACE   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -80,11 +80,11 @@
 
         layer_Layer__4 {
             bindings = <
- &trans  &trans  &trans      &trans   &trans          &trans                  &trans                                                  &trans                    &trans             &trans          &trans     &trans  &trans  &trans
- &trans  &trans  &trans      &trans   &trans  &kp LANGUAGE_4            &kp INT_KANA                                                  &trans                  &kp INT1  &kp LANG_HIRAGANA       &kp LANG7     &trans  &trans  &trans
- &trans  &trans   &none  &kp DOLLAR  &kp ESC          &trans                  &trans  &trans  &trans                  &trans  &trans  &trans                  &kp LEFT           &kp DOWN          &kp UP  &kp RIGHT  &trans  &trans
- &trans  &trans  &trans      &trans   &trans  &kp UNDERSCORE                                  &trans                  &trans                  &kp INT_KATAKANAHIRAGANA  &kp LANG_HIRAGANA  &kp UNDERSCORE     &trans  &trans  &trans
- &trans  &trans  &trans      &trans   &trans                                  &trans  &trans  &trans                  &trans  &trans  &trans                                       &trans          &trans     &trans  &trans  &trans
+ &trans        &trans     &trans      &trans   &trans          &trans                  &trans                                                  &trans          &trans             &trans            &trans             &trans  &trans  &trans
+ &trans        &trans     &trans       &none   &trans  &kp LANGUAGE_4            &kp INT_KANA                                                  &trans        &kp INT1   &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
+ &trans  &kp NUMBER_0  &kp CARET  &kp DOLLAR  &kp ESC       &kp SPACE                  &trans  &trans  &trans                  &trans  &trans  &trans        &kp LEFT           &kp DOWN            &kp UP          &kp RIGHT  &trans  &trans
+ &trans        &trans     &trans      &trans   &trans  &kp UNDERSCORE                                  &trans                  &trans                  &macro_kinesis  &kp LANG_HIRAGANA    &kp UNDERSCORE          &kp MINUS  &trans  &trans
+ &trans        &trans     &trans      &trans   &trans                                  &trans  &trans  &trans                  &trans  &trans  &trans                             &trans            &trans             &trans  &trans  &trans
             >;
         };
 
