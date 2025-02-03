@@ -61,7 +61,7 @@
 &kp TAB     &kp Q      &kp W          &kp E         &kp R          &kp T   &none                                                                       &kp ENTER          &kp Y   &kp U          &kp I      &kp O                 &kp P                  &kp AT
 &kp LCTRL   &kp A      &kp S          &kp D         &kp F          &kp G   &kp TAB      &kp SPACE         &kp LALT      &kp ENTER     &kp RCTRL        &kp F12            &kp H   &kp J          &kp K      &kp L                 &kp SEMI               &kp ASTRK
 &kp LSHFT   &kp Z      &kp X          &kp C         &kp V          &kp B                                  &kp HOME      &kp UP_ARROW                                      &kp N   &kp M          &kp COMMA  &kp DOT               &kp FSLH               &kp RSHFT
-&mo 2       &kp GRAVE  &kp AMPERSAND  &kp LA(LEFT)  &kp LA(RIGHT)          &lt 4 SPACE  &kp LEFT_COMMAND  &kp END       &kp DOWN      &kp RIGHT_SHIFT  &kp RIGHT_COMMAND          &kp BACKSPACE  &kp ENTER  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mo 2
+&mo 5       &kp GRAVE  &kp AMPERSAND  &kp LA(LEFT)  &kp LA(RIGHT)          &lt 4 SPACE  &kp LEFT_COMMAND  &kp END       &kp DOWN      &kp RIGHT_SHIFT  &kp RIGHT_COMMAND          &kp BACKSPACE  &kp ENTER  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mo 2
             >;
         };
 
@@ -95,13 +95,23 @@
             >;
         };
 
-        layer_custom1 {
+        layer_4 {
             bindings = <
 &trans  &trans        &trans     &trans      &trans     &trans          &trans                                            &trans             &trans     &trans            &trans            &trans             &trans     &trans
 &none   &kp LG(Q)     &kp LG(W)  &kp LG(E)   &kp LG(R)  &kp LG(T)       &kp INT_KANA                                      &trans             &kp INT1   &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans
 &trans  &kp NUMBER_0  &kp CARET  &kp DOLLAR  &kp ESC    &kp SPACE       &trans        &trans  &trans      &trans  &trans  &kp LANG_KATAKANA  &kp LEFT   &kp DOWN          &kp UP            &kp RIGHT          &kp EQUAL  &trans
 &trans  &kp LG(Z)     &kp LG(X)  &kp LG(C)   &kp LG(V)  &kp UNDERSCORE                        &trans      &trans                             &kp LANG2  &kp LANG1         &kp UNDERSCORE    &kp BACKSLASH      &kp GRAVE  &trans
 &trans  &trans        &trans     &trans      &trans                     &trans        &trans  &trans      &trans  &trans  &trans                        &kp TILDE         &kp MINUS         &trans             &trans     &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &trans        &trans            &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &trans        &trans            &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP_ARROW)  &kp LA(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans        &trans        &trans            &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans            &trans         &trans  &trans
             >;
         };
     };
