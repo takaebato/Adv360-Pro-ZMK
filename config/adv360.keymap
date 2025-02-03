@@ -98,10 +98,10 @@
         layer_4 {
             bindings = <
 &trans  &trans        &trans     &trans      &trans     &trans          &trans                                      &trans  &trans     &trans            &trans            &trans             &trans     &trans
-&none   &kp LG(Q)     &kp LG(W)  &kp LG(E)   &kp LG(R)  &kp LG(T)       &trans                                      &trans  &trans     &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL  &trans
+&none   &kp LG(Q)     &kp LG(W)  &kp LG(E)   &kp LG(R)  &kp LG(T)       &trans                                      &trans  &trans     &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans
 &trans  &kp NUMBER_0  &kp CARET  &kp DOLLAR  &kp ESC    &kp SPACE       &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT   &kp DOWN          &kp UP            &kp RIGHT          &kp EQUAL  &trans
-&trans  &kp LG(Z)     &kp LG(X)  &kp LG(C)   &kp LG(V)  &kp UNDERSCORE                  &trans      &trans                  &kp LANG2  &kp LANG1         &kp UNDERSCORE    &kp BACKSLASH      &kp GRAVE  &trans
-&trans  &trans        &trans     &trans      &trans                     &trans  &trans  &trans      &trans  &trans  &trans             &kp TILDE         &kp MINUS         &trans             &trans     &trans
+&trans  &kp LG(Z)     &kp LG(X)  &kp LG(C)   &kp LG(V)  &kp UNDERSCORE                  &trans      &trans                  &kp LANG2  &kp LANG1         &kp UNDERSCORE    &kp BACKSLASH      &trans     &trans
+&trans  &trans        &trans     &trans      &trans                     &trans  &trans  &trans      &trans  &trans  &trans             &trans            &trans            &trans             &trans     &trans
             >;
         };
 
@@ -110,7 +110,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &trans        &trans                &trans                 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP_ARROW)      &kp LA(RIGHT)          &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans        &trans        &kp TILDE             &kp MINUS              &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans        &kp GRAVE     &kp TILDE             &kp MINUS              &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans                &trans                 &trans  &trans
             >;
         };
