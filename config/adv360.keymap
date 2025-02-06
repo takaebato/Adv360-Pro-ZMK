@@ -101,7 +101,7 @@
 &none   &kp LG(Q)     &kp LG(W)  &kp LG(E)   &kp LG(R)  &kp LG(T)       &trans                                      &trans  &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AMPERSAND  &kp GRAVE
 &trans  &kp NUMBER_0  &kp CARET  &kp DOLLAR  &kp ESC    &kp SPACE       &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT       &kp DOWN          &kp UP            &kp RIGHT          &kp EQUAL      &kp PLUS
 &trans  &kp LG(Z)     &kp LG(X)  &kp LG(C)   &kp LG(V)  &kp UNDERSCORE                  &trans      &trans                  &kp LANG2      &kp LANG1         &kp UNDERSCORE    &kp BACKSLASH      &trans         &trans
-&trans  &trans        &trans     &trans      &trans                     &trans  &trans  &trans      &trans  &trans  &trans                 &trans            &trans            &trans             &trans         &trans
+&trans  &trans        &trans     &trans      &trans                     &trans  &trans  &trans      &trans  &trans  &trans                 &kp PERCENT       &trans            &trans             &trans         &trans
             >;
         };
 
